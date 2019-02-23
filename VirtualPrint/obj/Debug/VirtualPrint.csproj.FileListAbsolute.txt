@@ -1,0 +1,15 @@
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\bin\Debug\VirtualPrint.exe.config
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\bin\Debug\VirtualPrint.exe
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\bin\Debug\VirtualPrint.pdb
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint.csprojAssemblyReference.cache
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\App.g.cs
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint_MarkupCompile.cache
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint_MarkupCompile.lref
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\MainWindow.baml
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint.g.resources
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint.Properties.Resources.resources
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint.csproj.GenerateResource.cache
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint.exe
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\VirtualPrint.pdb

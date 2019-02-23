@@ -1,0 +1,94 @@
+﻿<Window x:Class="VirtualPrint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VirtualPrint"
+        mc:Ignorable="d"
+        Title="Virtual Print v0.1" Height="700" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="189*"/>
+            <ColumnDefinition Width="307*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Margin="10,30,5,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="17*"/>
+                <ColumnDefinition Width="16*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Vertical" Margin="0,0,6,0">
+                <Label Content="№ путевого листа:"/>
+                <Label Content="День:"/>
+                <Label Content="Месяц:"/>
+                <Label Content="Год:"/>
+                <Label Content="Марка автомобиля:"/>
+                <Label Content="Гос. номерной знак:"/>
+                <Label Content="Водитель:"/>
+                <Label Content="Удостоверение номер:"/>
+                <Label Content="Табельный номер:"/>
+                <Label Content="Выезд из гаража:"/>
+                <Label Content="Возвращение в гараж:"/>
+                <Label Content="В чьё распоряжение:"/>
+                <Label Content="Вид работы:"/>
+                <Label Content="Диспетчер (расшифровка подписи):"/>
+                <Label Content="Механик (расшифровка подписи):"/>
+                <Label Content="Водитель (расшифровка подписи):"/>
+                <Label Content="Сдал водитель (расшифровка подписи):"/>
+                <Label Content="Принял механик (расшифровка подписи):"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Grid.Column="1">
+                <TextBox Name="numTextBox" Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="29" TextAlignment="Center"/>
+                <TextBox Height="29" TextAlignment="Center"/>
+                <TextBox Height="27" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="29" TextAlignment="Center"/>
+                <TextBox Height="29" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Height="25" TextAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Margin="1,33,0,7" Stroke="Black" Width="4" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+
+
+        <Menu Height="25" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            <MenuItem Header="Файл">
+                <MenuItem Name="Open" Header="Открыть" Click="Open_Click" />
+                <MenuItem Name="Print" Header="Печать" Click="Print_Click" />
+            </MenuItem>
+        </Menu>
+
+        <Grid Grid.Column="1" Margin="10,30,10,10">
+            <Image x:Name="sourceImage">
+                <Image.Source>
+                    <BitmapImage UriSource="D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\Resources\Images\1.bmp"/>
+                </Image.Source>
+            </Image>
+
+            <Label Name="numberOfList" Content="Label" Margin="251,122,300,478" FontSize="14"/>
+        </Grid>
+
+    </Grid>
+</Window>
