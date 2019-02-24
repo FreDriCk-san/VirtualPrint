@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Debug\
+D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\obj\Release\
 VirtualPrint
 none
 false
-DEBUG;TRACE
+TRACE
 D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\App.xaml
 11151548125
 
-101664703835
+62091324290
 131569487696
 MainWindow.xaml;
 
-True
+False
 

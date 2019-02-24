@@ -39,24 +39,24 @@
             </StackPanel>
 
             <StackPanel Orientation="Vertical" Grid.Column="1">
-                <TextBox Name="numTextBox" Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="29" TextAlignment="Center"/>
-                <TextBox Height="29" TextAlignment="Center"/>
-                <TextBox Height="27" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="29" TextAlignment="Center"/>
-                <TextBox Height="29" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
-                <TextBox Height="25" TextAlignment="Center"/>
+                <TextBox Name="numTextBox" Height="25" TextAlignment="Center" Text="номер пут. листа"/>
+                <TextBox Name="day" Height="25" TextAlignment="Center" Text="день"/>
+                <TextBox Name="month" Height="25" TextAlignment="Center" Text="месяц"/>
+                <TextBox Name="year" Height="25" TextAlignment="Center" Text="год"/>
+                <TextBox Name="carBrand" Height="25" TextAlignment="Center" Text="марка авто"/>
+                <TextBox Name="licensePlate" Height="25" TextAlignment="Center" Text="гос. знак"/>
+                <TextBox Name="driver" Height="29" TextAlignment="Center" Text="водитель"/>
+                <TextBox Name="certificate" Height="29" TextAlignment="Center" Text="удостоверение номер"/>
+                <TextBox Name="persNum" Height="27" TextAlignment="Center" Text="табельный номер"/>
+                <TextBox Name="departure" Height="25" TextAlignment="Center" Text="выезд из гаража"/>
+                <TextBox Name="returns" Height="25" TextAlignment="Center" Text="возвращение в гараж"/>
+                <TextBox Name="orderBySome" Height="25" TextAlignment="Center" Text="в чьё распоряжение"/>
+                <TextBox Name="workType" Height="25" TextAlignment="Center" Text="вид работы"/>
+                <TextBox Name="dispatcherSign" Height="29" TextAlignment="Center" Text="диспетчер (расш)"/>
+                <TextBox Name="mechanicSign" Height="29" TextAlignment="Center" Text="механик (расш)"/>
+                <TextBox Name="driverSign" Height="25" TextAlignment="Center" Text="водитель (расш)"/>
+                <TextBox Name="passedDriver" Height="25" TextAlignment="Center" Text="сдал водитель (расш)"/>
+                <TextBox Name="acceptedMech" Height="25" TextAlignment="Center" Text="принял мех (расш)" Margin="-1,0,1,0"/>
             </StackPanel>
         </Grid>
 
@@ -82,9 +82,9 @@
 
         <Grid Grid.Column="1" Margin="10,30,10,10">
             <Image x:Name="sourceImage">
-                <Image.Source>
+                <!--<Image.Source>
                     <BitmapImage UriSource="D:\Visual Studio Projects\C#\VirtualPrint\VirtualPrint\VirtualPrint\Resources\Images\1.bmp"/>
-                </Image.Source>
+                </Image.Source>-->
             </Image>
 
             <Label Name="numberOfList" Content="Label" Margin="251,122,300,478" FontSize="14"/>
